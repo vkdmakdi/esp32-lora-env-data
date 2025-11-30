@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3qtqoSZww"
+#define BLYNK_TEMPLATE_ID "temp-id"
 #define BLYNK_TEMPLATE_NAME "hdc 1080"
-#define BLYNK_AUTH_TOKEN "MXJAL1ZmzjGCt7hLMT8U-J9azt4_4XmX"
+#define BLYNK_AUTH_TOKEN "auth-token"
 
 #include <Wire.h>
 #include <SPI.h>
@@ -9,8 +9,8 @@
 #include <BlynkSimpleEsp32.h>
 
 // WiFi credentials
-char ssid[] = "Vishalaakshi";
-char pass[] = "flamingocheerful761";
+char ssid[] = "wifi-name";
+char pass[] = "wifi-pwd";
 
 // I2C addresses
 #define HDC1080_ADDR      0x40
